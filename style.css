@@ -1,0 +1,70 @@
+*{
+    box-sizing:border-box;
+    padding:0px;
+  }
+  .fondo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:418px;
+    background-color:#fff;
+   border-radius:25px;
+    display:flex;
+    flex-direction:column;
+    align-items:star;
+  justify-content:center;
+    box-shadow: 15px 15px 15px #E5EAF0;
+  }
+  .recorte{
+    position:absolute;
+    margin-bottom:0px;
+  }
+  img{
+    height:50%;
+    border-radius:10px 10px 0px 0px;
+  }
+  h1{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color:#20293A;
+    padding:5px 70px 0px 30px;
+    margin:0px;
+  }
+  p{
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    margin-right:10px;
+    padding: 0px 20px 5px 30px;
+    color:#677489;
+  }
+  hr{
+    width:100%;
+  }
+  .footer{
+    display:flex;
+    align-items:center;
+    margin:16px 30px;
+  }
+  .footer img {
+    position:relative;
+    border-radius:150px;
+    width:40px;
+    height:40px;
+    border: 3px solid #F2F5F9;
+    margin-right:20px;
+  }
+  .footer .autor{
+    display:flex;
+    flex-direction:column;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+  }
+  .nombre{
+    font-weight:bold;
+  }
+  .titulo{
+    font-size:14px;
+    color: #677489;
+    margin-top:3px;
+  }
